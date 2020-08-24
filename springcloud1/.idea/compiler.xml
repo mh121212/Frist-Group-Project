@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-eurake-server" />
+        <module name="springcloud-feign" />
+        <module name="springcloud-feign-page" />
+        <module name="springcloud-provider" />
+        <module name="springcloud-provider (1)" />
+        <module name="springcloud-ribbon" />
+        <module name="springcloud1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

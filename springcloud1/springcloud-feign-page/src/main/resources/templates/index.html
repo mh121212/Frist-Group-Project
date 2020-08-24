@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<table border="1">
+    <tr th:each="student,x:${list}">
+        <td th:text="${student.studentid}"></td>
+        <td th:text="${student.studentname}"></td>
+        <td th:text="${student.studentdate}"></td>
+    </tr>
+</table>
+</body>
+</html>
